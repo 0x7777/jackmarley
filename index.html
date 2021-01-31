@@ -8,8 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     @import url('https://rsms.me/inter/inter.css');
-    html {
-        border-bottom: 6px solid #4139af;
+    body::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 6px;
+        width: 100vw;
+        background-color: #4139af;
     }
     body {
         margin: 0;
